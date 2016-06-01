@@ -15,4 +15,4 @@ Current Versions of projects:
 | com.shedhack.thread   |thread-context-aspect      |1.0.10|
 | com.shedhack.thread   |threadlocal-string-utility |1.0.0|
 | com.shedhack.spring   |spring-actuator            |1.0.3|
-| com.shedhack.tool     |spring-boost               |1.4.1|
+
