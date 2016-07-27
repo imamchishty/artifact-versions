@@ -14,5 +14,5 @@ Current Versions of projects:
 | com.shedhack.thread   |thread-context-handler     |1.0.6|
 | com.shedhack.thread   |thread-context-aspect      |1.0.10|
 | com.shedhack.thread   |threadlocal-string-utility |1.0.0|
-| com.shedhack.spring   |spring-actuator            |1.0.3|
+| com.shedhack.spring   |spring-actuator            |1.0.4|
 
