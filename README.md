@@ -1,18 +1,18 @@
 # artifact-versions
 Current Versions of projects:
 
-| Group Id              | Artifact Id               | Version  |
-| ----------------------|---------------------------| ---------|
-| com.shedhack.tool     |spring-boost               |1.4.1|
-| com.shedhack.trace    |trace-request-api          |1.0.3|
-| com.shedhack.trace    |trace-request-filter       |1.0.7|
+| Group Id              | Artifact Id               | Version  | CI |
+| ----------------------|---------------------------| ---------| ---|
+| com.shedhack.tool     |[spring-boost](https://github.com/imamchishty/spring-boost)               |[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.shedhack.tool/spring-boost/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.shedhack.tool/spring-boost)|[![Build Status](https://travis-ci.org/imamchishty/spring-boost.svg?branch=master "spring-boost")](https://travis-ci.org/imamchishty/spring-boost)|
+| com.shedhack.trace    |[trace-request-api](https://github.com/imamchishty/trace-request-api)         |[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.shedhack.filter/trace-request-api/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.shedhack.filter/trace-request-api)|[![Build Status](https://travis-ci.org/imamchishty/trace-request-api.svg?branch=master "trace-request-api")](https://travis-ci.org/imamchishty/trace-request-api)|
+| com.shedhack.trace    |[trace-request-filter](https://github.com/imamchishty/trace-request-filter)       |[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.shedhack.trace/trace-request-filter/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.shedhack.trace/trace-request-filter)|[![Build Status](https://travis-ci.org/imamchishty/trace-request-filter.svg?branch=master "filter-request-id")](https://travis-ci.org/imamchishty/trace-request-filter)|
 | com.shedhack.trace    |trace-request-jpa          |1.0.3|
 | com.shedhack.trace    |trace-request-core         | 1.0.0-SNAPSHOT|
 | com.shedhack.trace    |trace-request-viewer       |0.0.1-SNAPSHOT|
-| com.shedhack.exception|exception-controller-spring|1.0.9|
-| com.shedhack.exception|exception-core             |1.0.6|
-| com.shedhack.thread   |thread-context-handler     |1.0.6|
-| com.shedhack.thread   |thread-context-aspect      |1.0.10|
-| com.shedhack.thread   |threadlocal-string-utility |1.0.0|
-| com.shedhack.spring   |spring-actuator            |1.0.4|
+| com.shedhack.exception|[exception-controller-spring](https://github.com/imamchishty/exception-controller-spring)|[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.shedhack.exception/exception-controller-spring/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.shedhack.trace/trace-request-filter)||
+| com.shedhack.exception|[exception-core](https://github.com/imamchishty/exception-core)             |[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.shedhack.exception/exception-core/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.shedhack.exception/exception-core)|[![Build Status](https://travis-ci.org/imamchishty/exception-core.svg?branch=master "Travis CI")](https://travis-ci.org/imamchishty/exception-core)|
+| com.shedhack.thread   |[thread-context-handler](https://github.com/imamchishty/thread-context-handler)     |[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.shedhack.thread/thread-context-handler/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.shedhack.thread/thread-context-handler)|[![Build Status](https://travis-ci.org/imamchishty/thread-context-handler.svg?branch=master "thread-context-aspect")](https://travis-ci.org/imamchishty/thread-context-handler)|
+| com.shedhack.thread   |[thread-context-aspect](https://github.com/imamchishty/thread-context-aspect)      |[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.shedhack.thread/thread-context-aspect/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.shedhack.thread/thread-context-aspect)|[![Build Status](https://travis-ci.org/imamchishty/thread-context-aspect.svg?branch=master "JMC threads list")](https://travis-ci.org/imamchishty/thread-context-aspect)|
+| com.shedhack.thread   |[threadlocal-string-utility](https://github.com/imamchishty/threadlocal-string-utility) |[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.shedhack.thread/threadlocal-string-utility/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.shedhack.thread/threadlocal-string-utility)|[![Build Status](https://travis-ci.org/imamchishty/threadlocal-string-utility.svg?branch=master "threadlocal-string-utility")]|
+| com.shedhack.spring   |[spring-actuator](https://github.com/imamchishty/spring-actuator)            |[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.shedhack.thread/threadlocal-string-utility/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.shedhack.spring/spring-actuator)|
 
