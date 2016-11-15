@@ -6,7 +6,6 @@ Parent project: [maven-parent](https://github.com/imamchishty/maven-parent) [![M
 - version of spring-boot used is 1.4.2.RELEASE.
 - version of spring-cloud-dependencies is Brixton.RELEASE.
 
-
 ## Projects
 
 | Project                                                                                           | Description                                                                                 | Badges |
@@ -27,6 +26,9 @@ Parent project: [maven-parent](https://github.com/imamchishty/maven-parent) [![M
 |14. [spring-actuator](https://github.com/imamchishty/spring-actuator)                              | Custom actuator endpoints for seeing exceptions count, trace requests, exceptions etc.      |[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.shedhack.spring/spring-actuator/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.shedhack.spring/spring-actuator)                               [![Build Status](https://travis-ci.org/imamchishty/spring-actuator.svg?branch=master "Travis CI")](https://travis-ci.org/imamchishty/spring-actuator)                                                                |
 
 ## Dependency Tree
+
+![alt tag](https://github.com/imamchishty/artifact-versions/blob/master/shedhack-dependency-tree.jpg)
+
 Internal (shedhack) dependencies between projects.
 
 __thread-context-handler__
