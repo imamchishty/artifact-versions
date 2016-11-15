@@ -1,6 +1,11 @@
 # artifact-versions
 Current Versions of projects:
 
+Current version of spring-boot used is 1.4.2.RELEASE.
+Current version of spring-cloud-dependencies is Brixton.RELEASE.
+
+The above versions are managed by [maven-parent](https://github.com/imamchishty/maven-parent).
+
 | Project                                                                                           | Description                                                                                 | Badges |
 |---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1. [spring-boost](https://github.com/imamchishty/spring-boost)                                    | Microservices code generator.                                                               |[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.shedhack.tool/spring-boost/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.shedhack.tool/spring-boost)                                         [![Build Status](https://travis-ci.org/imamchishty/spring-boost.svg?branch=master "spring-boost")](https://travis-ci.org/imamchishty/spring-boost)                                                                       |
