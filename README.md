@@ -1,4 +1,4 @@
-# artifact-versions
+# Project Versions
 
 The projects listed are 'children' of maven-parent. This project manages the dependencies to keep everyone in sync.
 Parent project: [maven-parent](https://github.com/imamchishty/maven-parent) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.shedhack.maven/maven-parent/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.shedhack.maven/maven-parent)
