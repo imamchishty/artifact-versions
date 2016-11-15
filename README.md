@@ -4,7 +4,7 @@ The projects listed are 'children' of maven-parent. This project manages the dep
 Parent project: [maven-parent](https://github.com/imamchishty/maven-parent) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.shedhack.maven/maven-parent/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.shedhack.maven/maven-parent)
 
 - version of spring-boot used is 1.4.2.RELEASE.
-- version of spring-cloud-dependencies is Brixton.RELEASE.
+- version of spring-cloud-dependencies is Camden.SR2.
 
 ## Projects
 
@@ -29,41 +29,41 @@ Parent project: [maven-parent](https://github.com/imamchishty/maven-parent) [![M
 
 ![alt tag](https://github.com/imamchishty/artifact-versions/blob/master/shedhack-dependency-tree.jpg)
 
-Internal (shedhack) dependencies between projects.
+Internal (shedhack) dependencies between projects (release order in brackets).
 
-__thread-context-handler__
+__1. exception-core__
   - none
 
-__exception-core__
+__2. trace-request-api__
+  - none
+    
+__3. thread-context-handler__
   - none
 
-__trace-request-api__
-  - none
-
-__thread-context-aspect__
+__4. thread-context-aspect__
   - thread-context-handler
 
-__exception-controller-spring__
+__5. exception-controller-spring__
   - exception-core
   - trace-request-api
 
-__spring-actuator__
+__6. spring-actuator__
   - exception-controller-spring
   - trace-request-api
 
-__trace-request-filter__
+__7. trace-request-filter__
   - trace-request-api
   - spring-actuator (test)
   - exception-controller-spring (test)
 
-__requestbody-cache-filter__
+__8. requestbody-cache-filter__
   - none
 
-__requestbody-cache-interceptor__
+__9. requestbody-cache-interceptor__
   - exception-controller-spring
   - cache-filter
   - exception-core
 
-__spring-boost__
+__10.spring-boost__
   - everything
 
