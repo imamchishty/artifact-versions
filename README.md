@@ -7,6 +7,8 @@ Parent project: [maven-parent](https://github.com/imamchishty/maven-parent) [![M
 - version of spring-cloud-dependencies is Brixton.RELEASE.
 
 
+## Projects
+
 | Project                                                                                           | Description                                                                                 | Badges |
 |---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1. [spring-boost](https://github.com/imamchishty/spring-boost)                                    | Microservices code generator.                                                               |[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.shedhack.tool/spring-boost/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.shedhack.tool/spring-boost)                                         [![Build Status](https://travis-ci.org/imamchishty/spring-boost.svg?branch=master "spring-boost")](https://travis-ci.org/imamchishty/spring-boost)                                                                       |
@@ -23,3 +25,43 @@ Parent project: [maven-parent](https://github.com/imamchishty/maven-parent) [![M
 |12. [thread-context-aspect](https://github.com/imamchishty/thread-context-aspect)                  | Uses spring aspects to set thread context.                                                  |[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.shedhack.thread/thread-context-aspect/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.shedhack.thread/thread-context-aspect)                   [![Build Status](https://travis-ci.org/imamchishty/thread-context-aspect.svg?branch=master "JMC threads list")](https://travis-ci.org/imamchishty/thread-context-aspect)                                       |
 |13. [threadlocal-string-utility](https://github.com/imamchishty/threadlocal-string-utility)        | ThreadLocal utilities.                                                                      |[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.shedhack.thread/threadlocal-string-utility/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.shedhack.thread/threadlocal-string-utility)         [![Build Status](https://travis-ci.org/imamchishty/threadlocal-string-utility.svg?branch=master "threadlocal-string-utility")](https://travis-ci.org/imamchishty/threadlocal-string-utility)               |
 |14. [spring-actuator](https://github.com/imamchishty/spring-actuator)                              | Custom actuator endpoints for seeing exceptions count, trace requests, exceptions etc.      |[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.shedhack.spring/spring-actuator/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.shedhack.spring/spring-actuator)                               [![Build Status](https://travis-ci.org/imamchishty/spring-actuator.svg?branch=master "Travis CI")](https://travis-ci.org/imamchishty/spring-actuator)                                                                |
+
+## Dependency Tree
+Internal (shedhack) dependencies between projects.
+
+__thread-context-handler__
+  - none
+
+__exception-core__
+  - none
+
+__trace-request-api__
+  - none
+
+__thread-context-aspect__
+  - thread-context-handler
+
+__exception-controller-spring__
+  - exception-core
+  - trace-request-api
+
+__spring-actuator__
+  - exception-controller-spring
+  - trace-request-api
+
+__trace-request-filter__
+  - trace-request-api
+  - spring-actuator (test)
+  - exception-controller-spring (test)
+
+__requestbody-cache-filter__
+  - none
+
+__requestbody-cache-interceptor__
+  - exception-controller-spring
+  - cache-filter
+  - exception-core
+
+__spring-boost__
+  - everything
+
